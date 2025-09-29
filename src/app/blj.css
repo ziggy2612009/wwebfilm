@@ -1,0 +1,20 @@
+.navbar {
+  display: flex; /* Mengaktifkan Flexbox */
+  justify-content: space-between; /* Menyebarkan item secara merata */
+  align-items: center; /* Menengahkan item secara vertikal */
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+
+.nav-menu {
+  display: flex; /* Mengaktifkan Flexbox untuk menu */
+  list-style: none; /* Menghilangkan bullet point */
+  gap: 20px; /* Memberi jarak antar menu */
+  margin: 0;
+  padding: 0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Memberi jarak antar tombol */
+}
