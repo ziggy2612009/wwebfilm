@@ -26,12 +26,8 @@ export default function page() {
           </div>
         </nav>
 
-        <div className="text-2xl font-bold text-white ml-1 ">
-          Instagram
-          <p className="text-sm text-white">@Aziggy</p>
-        </div>
-
-        <div className="text-2xl flex font-bold text-white items-center justify-center gap-10">
+        
+        <div className="text-2xl flex font-bold mt-15 text-white items-center justify-center gap-10">
           <div>
             <p>Hello, it's me</p>
             <p className="text-5xl text-cyan-500">A.Aydin Khalfan Ziggy</p>
@@ -112,7 +108,7 @@ export default function page() {
             />
           </div>
 
-          <div className="max-w-2xl">
+          <div className="max-w-2xl py-10">
             <h2 className="text-4xl font-bold mb-2">
               About <span className="">Me</span>
             </h2>
@@ -120,11 +116,11 @@ export default function page() {
               Andi Aydin Khalfan Ziggy
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              saya lahir dimakassar tinggal gowa saya sekolah di smk telkom
-              makassar dan hobi bermain futsal dan kenapa saya masuk telkom saya
+              saya lahir dimakassar dan tinggal gowa saya sekolah di smk telkom
+              makassar dan hobi saya bermain futsal dan kenapa saya masuk telkom saya
               ingin mendapatkan banyak pelajaran yang tidak ada disekolah lain
-              dan syamasuk futsal telkom ingin mendapatkan banyak prestasi dan
-              juara dengan futsal dan saya ingin bawa mau futsal telkom .
+              dan saya masuk futsal telkom ingin mendapatkan banyak prestasi dan
+              juara dengan futsal dan saya ingin bawa futsal telkom.
             </p>
             <button className="mt-6 px-6 py-3 bg-cyan-400 text-white font-semibold rounded-full shadow-md hover:bg-cyan-300 transition drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]">
               More About Me
@@ -564,7 +560,7 @@ export default function page() {
               <div>
                 <div className="flex items-center justify-center  gap-2 text-3xl font-bold mt-10 px-10 py-20">
                   Latest
-                  <p className=" text-cyan-400"> Project </p>`
+                  <p className=" text-cyan-400"> Project </p>
                 </div>
                 <div>
                   <div className="grid md:grid-cols-3 gap-6 px-8 mb-20">
@@ -631,30 +627,118 @@ export default function page() {
                 </div>
               </div>
               <div>
-                <div className="grid grid-cols-2 mt-20 px-10">
+                <div className="grid grid-cols-2 mt-25 min-h-screen px-10">
                   <div className="flex-col flex">
-                  <div className="text-7xl font-bold">
-                    <span>Contact </span>
-                    <span className="text-cyan-400">Me</span>
+                    <div className="text-7xl font-bold">
+                      <span>Contact </span>
+                      <span className="text-cyan-400">Me</span>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-lg font-bold text-white">
+                        lets work together
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-2 text-gray-300 font-sans max-w-xl">
+                        “Setiap langkah kecil yang kita ambil hari ini adalah
+                        pondasi bagi kesuksesan di masa depan. Jangan pernah
+                        meremehkan usaha sekecil apapun, karena konsistensi akan
+                        mengubah impian menjadi kenyataan. Belajar, bekerja
+                        keras, dan berani mencoba adalah kunci untuk membuka
+                        pintu kesempatan yang lebih besar.”
+                      </p>
+                      <div className="mt-3 ">
+                        <p className="text-sm font-sans py-3">
+                          aydinkhalfanziggy@gmail.com
+                        </p>
+                        <p className="text-sm font-sans">081374319949</p>
+                      </div>
+                      <div className="flex gap-3 mt-9">
+                        {/* Instagram */}
+                        <div className="w-10 h-10 flex items-center justify-center border-2 border-cyan-400 rounded-full hover:bg-cyan-300 transition drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]">
+                          <Image
+                            src={instagram}
+                            alt="instagram"
+                            width={24}
+                            height={24}
+                            className="object-contain "
+                          />
+                        </div>
+
+                        {/* TikTok */}
+                        <div className="w-10 h-10 flex items-center justify-center border-2 border-cyan-400 rounded-full hover:bg-cyan-300 transition drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]">
+                          <Image
+                            src={tiktok}
+                            alt="tiktok"
+                            width={24}
+                            height={24}
+                            className="object-contain"
+                          />
+                        </div>
+
+                        {/* WhatsApp */}
+                        <div className="w-10 h-10 flex items-center justify-center border-2 border-cyan-400 rounded-full hover:bg-cyan-300 transition drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]">
+                          <Image
+                            src={wa}
+                            alt="whatsapp"
+                            width={24}
+                            height={24}
+                            className="object-contain"
+                          />
+                        </div>
+
+                        {/* LinkedIn */}
+                        <div className="w-10 h-10 flex items-center justify-center border-2 border-cyan-400 rounded-full hover:bg-cyan-300 transition drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]">
+                          <Image
+                            src={linked}
+                            alt="linkedin"
+                            width={24}
+                            height={24}
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <p className="mt-4 text-lg font-bold text-white">
-                      lets work together
-                    </p>
-                  </div>
-                  <div>
-                    <p className="mt-2 text-gray-300 font-sans max-w-xl">
-                      “Setiap langkah kecil yang kita ambil hari ini adalah
-                      pondasi bagi kesuksesan di masa depan. Jangan pernah
-                      meremehkan usaha sekecil apapun, karena konsistensi akan
-                      mengubah impian menjadi kenyataan. Belajar, bekerja keras,
-                      dan berani mencoba adalah kunci untuk membuka pintu
-                      kesempatan yang lebih besar.”
-                    </p>
-                  </div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between w-150 h-15  bg-gray-800 border-2 border-cyan-400 rounded-3xl mx-4 "></div>
+                  <div className="flex flex-col justify-center  gap-3">
+                    <div className="flex justify-between w-150 h-15  bg-gray-800 border-2 border-cyan-400 rounded-2xl mx-4  drop-shadow-[0_0_3px_rgba(34,211,238,0.9)] ">
+                      <input
+                        type="text"
+                        placeholder=" masukkan di sini..."
+                        className="w-150 h-14  rounded-2xl font-sans text-white focus:ring-2 focus:ring-cyan-400 
+               drop-shadow-[0_0_6px_rgba(34,211,238,0.7)]  
+               focus:outline-none "
+                      ></input>
+                    </div>
+                    <div className="flex justify-between w-150 h-15  bg-gray-800 border-2 border-cyan-400 rounded-2xl mx-4  drop-shadow-[0_0_3px_rgba(34,211,238,0.9)] ">
+                      {" "}
+                      <input
+                        type="text"
+                        placeholder=" masukkan di sini..."
+                        className="w-150 h-14  rounded-2xl font-sans text-white focus:ring-2 focus:ring-cyan-400 
+               drop-shadow-[0_0_6px_rgba(34,211,238,0.7)]  
+               focus:outline-none "
+                      ></input>
+                    </div>
+                    <div className="flex justify-between w-150 h-50  bg-gray-800 border-2 border-cyan-400 rounded-2xl mx-4  drop-shadow-[0_0_3px_rgba(34,211,238,0.9)]">
+                      <input
+                        type="text"
+                        className="w-150 h-49  rounded-2xl font-sans text-white placeholder-transparent 
+               focus:outline-none focus:ring-2 focus:ring-cyan-400 
+               drop-shadow-[0_0_6px_rgba(34,211,238,0.7)] "
+                      ></input>
+                      <label
+                        htmlFor="nama"
+                        className="absolute left-2 top-2 text-gray-400 text-base font-sans pointer-events-none"
+                      >
+                        masukkan di sini...
+                      </label>
+                    </div>
+                    <div className="ml-4 justify-between  rounded-full">
+                      <button className=" w-150 h-15 bg-cyan-400 text-white font-bold rounded-full shadow-md hover:bg-cyan-300 transition drop-shadow-[0_0_5px_rgba(34,211,238,0.9)]">
+                        Submit
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
